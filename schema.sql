@@ -41,8 +41,8 @@ CREATE INDEX IF NOT EXISTS idx_wishes_slug ON wishes(slug);
 -- 4. INITIAL DATA
 INSERT INTO admin_settings (key, value) 
 VALUES 
-  ('business_name', 'ETERNAL MOMENTS'), 
-  ('owner_whatsapp', '628123456789'),
+  ('business_name', 'pernikahankami'), 
+  ('owner_whatsapp', '628998188966'),
   ('primary_domain', '')
 ON CONFLICT (key) DO NOTHING;
 
